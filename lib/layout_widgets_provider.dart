@@ -7,6 +7,7 @@ import 'package:layout_widgets/padding/padding.dart';
 
 import 'column/column.dart';
 import 'container/container.dart';
+import 'expanded/expanded.dart';
 import 'row/row.dart';
 
 class LayoutWidgetsProvider {
@@ -28,4 +29,8 @@ class LayoutWidgetsProvider {
   static Widget row = getRow();
   static Widget rowWithSpaceEvenly = getRowWithSpaceEvenly();
   static Widget rowWithCrossAxisAlignment = getRowWithCrossAxisAlignment();
+  static Widget rowWithoutExpanded = getRowWithoutExpanded();
+  static Widget expandedRow = getExpandedRow();
+  static Widget expandedRowWithFlex = getExpandedRowWithFlex();
+  static Widget expandedColumnWithFlex = getExpandedColumnWithFlex();
 }
