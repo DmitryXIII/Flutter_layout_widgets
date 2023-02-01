@@ -23,7 +23,7 @@ import 'package:flutter/material.dart';
 /// Alignment.topRight: выравнивание по горизонтали по правому краю, по вертикали - у верхнего края контейнера (вверху справа). Аналогично значению Alignment(1.0, -1.0)
 getAlign() => const Align(
     alignment: Alignment.centerLeft,
-    child: Text('Текст слева по центру!',
+    child: Text('Align (слева по центру)',
         textDirection: TextDirection.ltr, // текст слева направо
         style: TextStyle(fontSize: 24) // высота шрифта 24
         ));

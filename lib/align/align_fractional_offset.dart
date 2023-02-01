@@ -13,7 +13,7 @@ import 'package:flutter/material.dart';
 
 getAlignFractionalOffset() => const Align(
     alignment: FractionalOffset(0.2, 0.3),
-    child: Text('Hello Flutter',
+    child: Text('FractionalOffset(0.2, 0.3)',
         textDirection: TextDirection.ltr, // текст слева направо
         style: TextStyle(fontSize: 20) // высота шрифта 20
         ));
